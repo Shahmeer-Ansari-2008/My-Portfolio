@@ -44,36 +44,25 @@ export default function Home() {
     
    
 </nav>
-<div className="ml-[40px] mt-[60px] ">
-      <h2 className='text-[30px] font-bold text-white'>
-        Assalamualaikum,It's Me
-      </h2>
-      <h1 className='text-[50px] font-bold text-white'>Shahmeer Ahmed</h1>
+
       
-      <div>
-      <span className='text-[30px] font-bold text-white'>
-        I'm a</span> <span className='text-[30px] font-bold text-cyan-500'>
-         Frontend Developer</span> 
+        <h1 className="text-center text-cyan-500 text-[50px] underline font-serif">
+         About
+    </h1>
+    <p className="text-center text-[30px] text-white ">
+      AssalamOAlaikum!<br />
+      My name is "Shahmeer Ahmed". <br />
+      I am a student of "GIAIC".<br />
+      I am learning about "Web development". <br />
+      My coding journey was start on 2024. <br />
+      I didn't know about coding before "GIAIC". <br />
+      But now I am better than before. <br />
+      Thank You.
+        </p>
         </div>
-        <p className='text-[20px] font-bold text-white' >You can vist my Github and LinkedIn accounts.</p>
-        <Link
-            href="https://Github/Shahmeer-Ansari-2008.com"
-            className="text-white text-[30px] ml-[40px] hover:bg-white hover:text-blue-950 hover:font-bold"
-          >
-           Github
-         </Link>   <Link
-            href="https://www.linkedin.com/in/shahmeer-ahmed-5b750b33a/"
-            className="text-white text-[30px] ml-[40px] hover:bg-white  hover:text-blue-950 hover:font-bold"
-          >
-          LinkedIn
-          </Link> 
-      </div>
-    <div className="ml-[800px] mt-[-40px]">
-    <img className="w-[300px] h-[300px] rounded-full shadow-lg shadow-cyan-500" src="images/me.jpg" alt="Shahmeer" />
-    </div>
    
     </div>
-    </div>
+    
   
   )
 }
