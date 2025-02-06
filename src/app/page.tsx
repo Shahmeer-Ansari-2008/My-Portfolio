@@ -10,7 +10,7 @@ export default function Home() {
       <div className="main bg-cover bg-gray-900 bg-center h-[800px] block" >
     <nav className="bg-gray-900 h-[80px] w-[100%]">
      
-    <label className= "text-white text-[40px] leading-[80px] p-[100px] font-serif font-bold logo max-lg:text-[30px] max-lg:pl-[50px] "></label>
+    <label className= "text-white text-[40px] leading-[80px] p-[100px] font-bold logo max-lg:text-[30px] max-lg:pl-[50px] ">SHAHMEER</label>
 
    
       <ul className="flex justify-end mr-[20px] left-[-80%] text-center">
@@ -24,11 +24,7 @@ export default function Home() {
           About
           </Link>
         </li>
-        <li className="leading-[80px] m-[5px] block m-[50px 0] leading-[30px] mt-[-80px] ">
-        <Link className="text-white text-base py-2 px-3.5 rounded-sm uppercase text-[16px] hover:bg-white  hover:text-cyan-500" href="/contact">
-          Contact
-        </Link>
-        </li>
+       
         <li className="leading-[80px] mx-[5px] block m-[50px 0] leading-[30px] mt-[-80px]">
           <Link className="text-white text-base py-2 px-3.5 rounded-sm uppercase text-[16px]  hover:bg-white hover:text-cyan-500"rel="stylesheet" href="/skills">
           Skills
@@ -52,21 +48,16 @@ export default function Home() {
       
       <div>
       <span className='text-[30px] font-bold text-white'>
-        I'm a</span> <span className='text-[30px] font-bold text-cyan-500'>
-         Frontend Developer</span> 
+        I'm a IT Student in</span> <span className='text-[30px] font-bold text-cyan-500'>
+         GIAIC</span> 
         </div>
-        <p className='text-[20px] font-bold text-white' >You can vist my Github and LinkedIn accounts.</p>
-        <Link
-            href="https://Github/Shahmeer-Ansari-2008.com"
-            className="text-white text-[30px] ml-[40px] hover:bg-white hover:text-blue-950 hover:font-bold"
-          >
-           Github
-         </Link>   <Link
-            href="https://www.linkedin.com/in/shahmeer-ahmed-5b750b33a/"
-            className="text-white text-[30px] ml-[40px] hover:bg-white  hover:text-blue-950 hover:font-bold"
-          >
-          LinkedIn
-          </Link> 
+        <button className="mt-[40px]">
+       
+        <Link className="text-white bg-cyan-500 text-base py-2 px-3.5 font-bold ml-[40px] rounded-sm uppercase text-[16px] hover:bg-white  hover:text-cyan-500" href="/contact">
+          Contact Me
+        </Link>
+       
+        </button>
       </div>
     <div className="ml-[800px] mt-[-40px]">
     <img className="w-[300px] h-[300px] rounded-full shadow-lg shadow-cyan-500" src="images/me.jpg" alt="Shahmeer" />

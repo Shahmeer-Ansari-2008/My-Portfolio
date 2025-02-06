@@ -46,7 +46,7 @@ return (
 <div className="p-0 m-0 no-underline list-none box-border ">
 <div className="main bg-cover bg-center bg-gray-900 h-[100vh] block">
 <nav className="bg-gray-900 h-[80px] w-[100%]">
-<label className= "text-white text-[40px] leading-[80px] p-[100px] font-serif font-bold logo max-lg:text-[30px] max-lg:pl-[50px] "></label>
+<label className= "text-white text-[40px] leading-[80px] p-[100px] font-bold logo max-lg:text-[30px] max-lg:pl-[50px] ">SHAHMEER</label>
 
 
 <ul className="flex justify-end mr-[20px] left-[-100%] text-center">
@@ -60,11 +60,7 @@ Home
    About
    </Link>
  </li>
- <li className="leading-[80px] m-[5px] block m-[50px 0] leading-[30px] mt-[-80px] ">
- <Link className="text-white text-base py-2 px-3.5 rounded-sm uppercase text-[20px] hover:bg-white  hover:text-cyan-500 active: font-bold underline " href="/contact">
-   Contact
-</Link>
-</li>
+ 
 <li className="leading-[80px] mx-[5px] block m-[50px 0] leading-[30px] mt-[-80px]">
           <Link className="text-white text-base py-2 px-3.5 rounded-sm uppercase text-[16px]  hover:bg-white hover:text-cyan-500"rel="stylesheet" href="/skills">
           Skills
@@ -77,11 +73,9 @@ Home
         </li>
 </ul>
 </nav>
-<div className="contact">
-<h1 className="text-center text-cyan-500 text-[50px] underline font-serif">Contact</h1>
-</div>
 
-<div className="max-w-lg mx-auto p-6  bg-white shadow-md rounded-md">
+
+<div className="max-w-lg mx-auto p-6  bg-white shadow-md rounded-md mt-[100px]">
 <h2 className="text-2xl font-bold mb-4 text-center text-cyan-500">Contact Form</h2>
 <form onSubmit={handleSubmit} className="space-y-4">
 <div>
